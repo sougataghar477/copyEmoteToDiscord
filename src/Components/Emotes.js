@@ -5,9 +5,9 @@ import Search from './Search';
 import { useState } from 'react';
 function Emotes() {
   let [searchedEmote, setSearch] = useState('');
-  const copyImageUrl = async (url) => {
-    await navigator.clipboard.writeText(url);
-    toast.success('Copied to clipboard !', { duration: 1500 });
+  const copyImageUrl = async (emote) => {
+    await navigator.clipboard.writeText(emote.src);
+    toast.success(emote.alt + ' copied to clipboard !', { duration: 1500 });
   };
   let emotesToDisplay =
     searchedEmote === ''
@@ -41,7 +41,7 @@ function Emotes() {
         {emotesToDisplay.length > 0 ? (
           emotesToDisplay.map((emote, index) => (
             <img
-              onClick={() => copyImageUrl(emote.src)}
+              onClick={() => copyImageUrl(emote)}
               className="emote-image"
               src={emote.src}
               key={index}
