@@ -29,7 +29,7 @@ function Emotes() {
         Click on an emote to copy it , paste it in discord chat and press enter
         .
         <br /> Not all emotes will be shown at first , please search to get what
-        you want.More emotes to be added .
+        you want. More emotes to be added .
       </p>
       <div className="emote-section">
         {emotesToDisplay.length > 0 ? (

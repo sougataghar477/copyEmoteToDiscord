@@ -21,14 +21,13 @@ body,.App-header{
 }
 .search-section input{
   padding:10px 20px;
-  /* width: 240px; */
-  /* border-radius: 4px; */
+  font-size: 16px;
   border: none;
   flex: 1 1 240px;
 }
 
 .emote-container{
-  min-height: 100vh;
+  /* min-height: 100vh; */
  
 }
 .emote-section{
