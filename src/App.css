@@ -1,10 +1,9 @@
-body{
-  background-color: #282c34;
+body,.App-header{
+  /* background-color: #282c34; */
+  background-color: #20232A;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
  margin: auto;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -16,12 +15,20 @@ body{
   align-items: center;
   padding: 40px 0;
 }
+.search-section h1{
+  display: none;
+}
 .search-section input{
   padding:10px 20px;
   /* width: 240px; */
   /* border-radius: 4px; */
   border: none;
   flex: 1 1 240px;
+}
+
+.emote-container{
+  min-height: 100vh;
+ 
 }
 .emote-section{
   display: flex;
@@ -35,11 +42,16 @@ body{
 .notification{
   padding: 8px;
   font-size: 16px;
-  border-radius:0px;
-  background-color: #221;
+  background-color: #32363d;
   color: #fff
 }
-
+.footer{
+  display: inline-block;
+  margin-top: 16px;
+}
+.footer a {
+  color: white;
+}
  /* media query */
 @media only screen and (min-width: 1024px) {
  
@@ -58,4 +70,19 @@ body{
   border: none;
   flex: 0 1 240px;
 }
+.search-section h1{
+  display: block;
+}
+.search-section,.emote-section{
+  padding: 0;
+}
+.footer{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 16px;
+
+
+}
+
 }

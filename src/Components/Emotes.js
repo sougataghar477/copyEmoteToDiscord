@@ -11,13 +11,13 @@ function Emotes() {
   };
   let emotesToDisplay =
     searchedEmote === ''
-      ? emoteImages
-      : emoteImages.filter((emote) =>
-          emote.alt.toLowerCase().includes(searchedEmote.toLowerCase())
-        );
+      ? emoteImages.slice(0, 36)
+      : emoteImages.filter((emote) => {
+          return emote.alt.toLowerCase().includes(searchedEmote.toLowerCase());
+        });
 
   return (
-    <div>
+    <div className="emote-container">
       <Toaster
         toastOptions={{
           className: 'notification',
@@ -29,15 +29,25 @@ function Emotes() {
         Click on an emote to copy it , paste it in dicord chat and press enter.
       </p>
       <div className="emote-section">
-        {emotesToDisplay.map((emote, index) => (
-          <img
-            onClick={() => copyImageUrl(emote.src)}
-            className="emote-image"
-            src={emote.src}
-            key={index}
-            alt={emote.alt}
-          />
-        ))}
+        {emotesToDisplay.length > 0 ? (
+          emotesToDisplay.map((emote, index) => (
+            <img
+              onClick={() => copyImageUrl(emote.src)}
+              className="emote-image"
+              src={emote.src}
+              key={index}
+              alt={emote.alt}
+            />
+          ))
+        ) : (
+          <p>
+            Sorry, couldn't find what you were looking for{'. '}
+            <img
+              src={emoteImages.find((emote) => emote.alt === 'NotLikeThis').src}
+              alt={'NotLikeThis'}
+            />
+          </p>
+        )}
       </div>
     </div>
   );

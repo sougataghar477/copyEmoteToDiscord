@@ -48,6 +48,10 @@ const emoteImages = [
     alt: 'OkayBruh',
   },
   {
+    src: 'https://cdn.discordapp.com/emojis/944317493151952956.webp?size=56&quality=lossless',
+    alt: 'Bruh',
+  },
+  {
     src: 'https://cdn.discordapp.com/emojis/888543978377584670.png?size=56',
     alt: 'dankHug',
   },
@@ -135,24 +139,37 @@ const emoteImages = [
     src: 'https://cdn.discordapp.com/emojis/890227504844009512.png?size=56',
     alt: 'Bedge',
   },
+  {
+    src: 'https://cdn.discordapp.com/emojis/838694084285169684.gif?size=56&quality=lossless',
+    alt: 'GIGACHAD',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/911979500231860265.webp?size=56&quality=lossless',
+    alt: 'PogU',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/808090431354568756.webp?size=56&quality=lossless',
+    alt: 'forsenCD',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/905851533625802782.gif?size=56&quality=lossless',
+    alt: 'docCBT',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/796320841959735297.gif?size=56&quality=lossless',
+    alt: 'docPls',
+  },
+  {
+    src: '',
+    alt: '',
+  },
+  {
+    src: '',
+    alt: '',
+  },
+  {
+    src: '',
+    alt: '',
+  },
 ];
 export default emoteImages;
-// {/* {searchedEmote === ''
-//   ? emoteImages.map((emote, index) => (
-//       <img
-//         className="emote-image"
-//         src={emote.src}
-//         key={index}
-//         alt={emote.alt}
-//       />
-//     ))
-//   : emoteImages
-//       .filter((emote) => emote.alt.includes(searchedEmote))
-//       .map((emote, index) => (
-//         <img
-//           className="emote-image"
-//           src={emote.src}
-//           key={index}
-//           alt={emote.alt}
-//         />
-//       ))} */}
