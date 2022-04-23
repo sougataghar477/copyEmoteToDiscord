@@ -7,7 +7,7 @@ function Emotes() {
   let [searchedEmote, setSearch] = useState('');
   const copyImageUrl = async (url) => {
     await navigator.clipboard.writeText(url);
-    toast.success('Copied', { duration: 1500 });
+    toast.success('Copied!', { duration: 1500 });
   };
   let emotesToDisplay =
     searchedEmote === ''
