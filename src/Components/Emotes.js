@@ -40,6 +40,7 @@ function Emotes() {
               src={emote.src}
               key={index}
               alt={emote.alt}
+              title={emote.alt}
             />
           ))
         ) : (
