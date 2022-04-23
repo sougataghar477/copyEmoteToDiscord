@@ -7,7 +7,7 @@ function Emotes() {
   let [searchedEmote, setSearch] = useState('');
   const copyImageUrl = async (url) => {
     await navigator.clipboard.writeText(url);
-    toast.success('Copied!', { duration: 1500 });
+    toast.success('Copied to clipboard !', { duration: 1500 });
   };
   let emotesToDisplay =
     searchedEmote === ''
@@ -20,7 +20,13 @@ function Emotes() {
     <div className="emote-container">
       <Toaster
         toastOptions={{
-          className: 'notification',
+          className: '',
+          style: {
+            backgroundColor: '#32363d',
+            padding: '8px 16px',
+            color: '#fff',
+            fontSize: '16px',
+          },
         }}
       />
 
