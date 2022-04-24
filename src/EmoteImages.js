@@ -160,16 +160,40 @@ const emoteImages = [
     alt: 'docPls',
   },
   {
-    src: '',
-    alt: '',
+    src: 'https://cdn.discordapp.com/emojis/800619559367081995.webp?size=56&quality=lossless',
+    alt: 'Madge',
   },
   {
-    src: '',
-    alt: '',
+    src: 'https://cdn.discordapp.com/emojis/854371906378661902.webp?size=56&quality=lossless',
+    alt: 'Sadge',
   },
   {
-    src: '',
-    alt: '',
+    src: 'https://cdn.discordapp.com/emojis/699598474315825182.gif?size=56&quality=lossless',
+    alt: 'PepegaAim',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/695566914658762814.gif?size=56&quality=lossless',
+    alt: 'PepegaDriving',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/644479444555137024.gif?size=56&quality=lossless',
+    alt: 'peepoComfy',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/718071523088531487.gif?size=56&quality=lossless',
+    alt: 'PETTHEPEEPO',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/504618897945788426.gif?size=56&quality=lossless',
+    alt: 'pepePeek',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/619845777987993600.gif?size=56&quality=lossless',
+    alt: 'ppHop',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/644479444659994644.gif?size=56&quality=lossless',
+    alt: 'pepeD',
   },
 ];
 export default emoteImages;

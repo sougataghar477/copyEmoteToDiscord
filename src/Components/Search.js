@@ -5,6 +5,7 @@ function Search({ setSearched }) {
     <div className="search-section">
       <h1>Emotes</h1>
       <input
+        autoFocus
         type="search"
         value={searchedEmote}
         onChange={(e) => {

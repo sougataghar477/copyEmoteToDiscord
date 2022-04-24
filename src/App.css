@@ -27,7 +27,7 @@ body,.App-header{
 }
 
 .emote-container{
-  /* min-height: 100vh; */
+  min-height: 100vh;
  
 }
 .emote-section{
