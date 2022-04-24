@@ -2,12 +2,14 @@ import React from 'react';
 import toast, { Toaster } from 'react-hot-toast';
 import emoteImages from '../EmoteImages';
 import Search from './Search';
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 function Emotes() {
   let [searchedEmote, setSearch] = useState('');
+  let inputRef = useRef();
   const copyImageUrl = async (emote) => {
     await navigator.clipboard.writeText(emote.src);
     toast.success(emote.alt + ' copied to clipboard !', { duration: 1500 });
+    inputRef.current.focus();
   };
   let emotesToDisplay =
     searchedEmote === ''
@@ -20,7 +22,6 @@ function Emotes() {
     <div className="emote-container">
       <Toaster
         toastOptions={{
-          className: '',
           style: {
             backgroundColor: '#32363d',
             padding: '8px 16px',
@@ -30,7 +31,7 @@ function Emotes() {
         }}
       />
 
-      <Search setSearched={{ searchedEmote, setSearch }} />
+      <Search ref={inputRef} setSearched={{ searchedEmote, setSearch }} />
       <p>
         Click on an emote to copy it , paste it in discord chat and press enter
         .
@@ -41,7 +42,7 @@ function Emotes() {
         {emotesToDisplay.length > 0 ? (
           emotesToDisplay.map((emote, index) => (
             <img
-              onClick={() => copyImageUrl(emote)}
+              onClick={(e) => copyImageUrl(emote)}
               className="emote-image"
               src={emote.src}
               key={index}

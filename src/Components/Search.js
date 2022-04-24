@@ -1,19 +1,18 @@
 import React from 'react';
-function Search({ setSearched }) {
-  const { searchedEmote, setSearch } = setSearched;
+const Search = React.forwardRef(function ({ setSearched }, inputRef) {
+  let { searchedEmote, setSearch } = setSearched;
   return (
     <div className="search-section">
       <h1>Emotes</h1>
       <input
-        autoFocus
+        ref={inputRef}
+        autoFocus={true}
         type="search"
         value={searchedEmote}
-        onChange={(e) => {
-          setSearch(e.target.value);
-        }}
-        placeholder={'Type here to search'}
+        onChange={(e) => setSearch(e.target.value)}
+        placeholder="Type here to search"
       />
     </div>
   );
-}
+});
 export default Search;

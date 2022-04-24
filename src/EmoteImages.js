@@ -4,6 +4,10 @@ const emoteImages = [
     alt: 'pepeL',
   },
   {
+    src: 'https://cdn.discordapp.com/emojis/813112468032847922.gif?size=56&quality=lossless',
+    alt: 'PepeLaugh',
+  },
+  {
     src: 'https://cdn.discordapp.com/emojis/824884636295364619.png?size=56',
     alt: 'sadKEK',
   },
@@ -14,6 +18,14 @@ const emoteImages = [
   {
     src: 'https://cdn.discordapp.com/emojis/597589606497648640.png?size=56',
     alt: 'HandsUp',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/844032585734684692.gif?size=56&quality=lossless',
+    alt: 'gachiBASS',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/813100210087133224.gif?size=56&quality=lossless',
+    alt: 'gachiHYPER',
   },
   {
     src: 'https://cdn.discordapp.com/emojis/888544388844756992.png?size=56',
@@ -72,6 +84,14 @@ const emoteImages = [
     alt: 'FeelsStrongMan',
   },
   {
+    src: 'https://cdn.discordapp.com/emojis/952292295699464262.webp?size=56&quality=lossless',
+    alt: 'FeelsBirthdayMan',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/813098171436630087.webp?size=56&quality=lossless',
+    alt: 'FeelsBadMan',
+  },
+  {
     src: 'https://cdn.discordapp.com/emojis/833931007224184873.gif?size=56',
     alt: 'pepeW',
   },
@@ -98,6 +118,10 @@ const emoteImages = [
   {
     src: 'https://cdn.discordapp.com/emojis/824776845760266270.png?size=56',
     alt: 'NOP',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/952291392946835496.webp?size=56&quality=lossless',
+    alt: 'Stare',
   },
   {
     src: 'https://cdn.discordapp.com/emojis/706909065032237158.png?size=56',
@@ -190,6 +214,18 @@ const emoteImages = [
   {
     src: 'https://cdn.discordapp.com/emojis/644479444659994644.gif?size=56&quality=lossless',
     alt: 'pepeD',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/938556874243059782.webp?size=56&quality=lossless',
+    alt: 'sadCatThumbsUp',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/933987854634324088.gif?size=56&quality=lossless',
+    alt: 'FroggieDance',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/846826176252346368.gif?size=56&quality=lossless',
+    alt: 'SadgeInRain',
   },
 ];
 export default emoteImages;
