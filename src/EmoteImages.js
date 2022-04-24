@@ -184,10 +184,6 @@ const emoteImages = [
     alt: 'PETTHEPEEPO',
   },
   {
-    src: 'https://cdn.discordapp.com/emojis/504618897945788426.gif?size=56&quality=lossless',
-    alt: 'pepePeek',
-  },
-  {
     src: 'https://cdn.discordapp.com/emojis/619845777987993600.gif?size=56&quality=lossless',
     alt: 'ppHop',
   },
