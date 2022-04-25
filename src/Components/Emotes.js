@@ -35,7 +35,7 @@ function Emotes() {
         . <br /> Not all emotes will be shown at first , please search to get
         what you want. More emotes to be added .<br />
         Try not to include image url and text in one line otherwise the url will
-        be visible
+        be visible.
       </p>
       <div className="emote-section">
         {emotesToDisplay.length > 0 ? (
