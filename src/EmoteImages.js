@@ -1,4 +1,4 @@
-const emoteImages = [
+export const emoteImages = [
   {
     src: 'https://cdn.discordapp.com/emojis/813112310939779082.gif?size=56',
     alt: 'pepeL',
@@ -32,6 +32,10 @@ const emoteImages = [
     alt: 'Sadeg',
   },
   {
+    src: ' https://cdn.discordapp.com/emojis/782622316244369458.webp?size=56&quality=lossless',
+    alt: 'Okayeg',
+  },
+  {
     src: 'https://cdn.discordapp.com/emojis/848800020891041812.png?size=56',
     alt: 'Madeg',
   },
@@ -54,6 +58,10 @@ const emoteImages = [
   {
     src: 'https://cdn.discordapp.com/emojis/528713138657558538.gif?size=56',
     alt: 'ppOverheat',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/820192787965673503.gif?size=56&quality=lossless',
+    alt: 'ppHop',
   },
   {
     src: 'https://cdn.discordapp.com/emojis/824551728132390922.png?size=56',
@@ -116,8 +124,16 @@ const emoteImages = [
     alt: 'NODDERS',
   },
   {
+    src: 'https://cdn.discordapp.com/emojis/862276176138862603.gif?size=56&quality=lossless',
+    alt: 'NOPERS',
+  },
+  {
     src: 'https://cdn.discordapp.com/emojis/824776845760266270.png?size=56',
     alt: 'NOP',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/895785871012417586.webp?size=56&quality=lossless',
+    alt: 'YEP',
   },
   {
     src: 'https://cdn.discordapp.com/emojis/952291392946835496.webp?size=56&quality=lossless',
@@ -128,6 +144,14 @@ const emoteImages = [
     alt: 'BabyRage',
   },
   {
+    src: 'https://cdn.discordapp.com/emojis/430731303042678784.webp?size=56&quality=lossless',
+    alt: 'KKona',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/898640058779852810.gif?size=56&quality=lossless',
+    alt: 'ABDULPls',
+  },
+  {
     src: 'https://cdn.discordapp.com/emojis/743559215418703924.png?size=56',
     alt: 'lacFp',
   },
@@ -136,8 +160,20 @@ const emoteImages = [
     alt: 'Hmm',
   },
   {
+    src: 'https://cdn.discordapp.com/emojis/931969009111416832.webp?size=56&quality=lossless',
+    alt: 'HUH',
+  },
+  {
     src: 'https://cdn.discordapp.com/emojis/882357725294641182.gif?size=56',
     alt: 'dinkDonk',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/961101997522681906.webp?size=56&quality=lossless',
+    alt: 'WeirdDude',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/658869217197686790.webp?size=56&quality=lossless',
+    alt: 'EZ',
   },
   {
     src: 'https://cdn.discordapp.com/emojis/769647465203761222.gif?size=56',
@@ -180,6 +216,10 @@ const emoteImages = [
     alt: 'docCBT',
   },
   {
+    src: 'https://cdn.discordapp.com/emojis/758793359376121889.gif?size=56&quality=lossless',
+    alt: 'DOCING',
+  },
+  {
     src: 'https://cdn.discordapp.com/emojis/796320841959735297.gif?size=56&quality=lossless',
     alt: 'docPls',
   },
@@ -208,10 +248,6 @@ const emoteImages = [
     alt: 'PETTHEPEEPO',
   },
   {
-    src: 'https://cdn.discordapp.com/emojis/619845777987993600.gif?size=56&quality=lossless',
-    alt: 'ppHop',
-  },
-  {
     src: 'https://cdn.discordapp.com/emojis/644479444659994644.gif?size=56&quality=lossless',
     alt: 'pepeD',
   },
@@ -227,5 +263,44 @@ const emoteImages = [
     src: 'https://cdn.discordapp.com/emojis/846826176252346368.gif?size=56&quality=lossless',
     alt: 'SadgeInRain',
   },
+  {
+    src: 'https://cdn.discordapp.com/emojis/378172287053987866.webp?size=56&quality=lossless',
+    alt: 'TriHard7',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/751068332035407954.gif?size=56&quality=lossless',
+    alt: 'TriDance',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/955305056046022766.webp?size=56&quality=lossless',
+    alt: 'BASEDHALT',
+  },
+  // { src: '', alt: '' },
+  // { src: '', alt: '' },
+  // { src: '', alt: '' },
+  // { src: '', alt: '' },
+  // { src: '', alt: '' },
+  // { src: '', alt: '' },
+  // { src: '', alt: '' },
+  // { src: '', alt: '' },
+  // { src: '', alt: '' },
+  // { src: '', alt: '' },
+  // { src: '', alt: '' },
+  // { src: '', alt: '' },
+  // { src: '', alt: '' },
+  // { src: '', alt: '' },
+  // { src: '', alt: '' },
+  // { src: '', alt: '' },
+  // { src: '', alt: '' },
+  // { src: '', alt: '' },
 ];
-export default emoteImages;
+export const notFoundImages = [
+  {
+    src: 'https://cdn.discordapp.com/emojis/852879438696939551.png?size=56',
+    alt: 'PepeHands',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/559816861810688030.png?size=56',
+    alt: 'NotLikeThis',
+  },
+];

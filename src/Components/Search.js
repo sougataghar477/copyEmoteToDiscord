@@ -1,11 +1,10 @@
 import React from 'react';
-const Search = React.forwardRef(function ({ setSearched }, inputRef) {
+function Search({ setSearched }) {
   let { searchedEmote, setSearch } = setSearched;
   return (
     <div className="search-section">
-      <h1>Emotes</h1>
+      <h1>Copy Discord Emotes</h1>
       <input
-        ref={inputRef}
         autoFocus={true}
         type="search"
         value={searchedEmote}
@@ -14,5 +13,5 @@ const Search = React.forwardRef(function ({ setSearched }, inputRef) {
       />
     </div>
   );
-});
+}
 export default Search;

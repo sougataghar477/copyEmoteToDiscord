@@ -1,15 +1,13 @@
 import React from 'react';
 import toast, { Toaster } from 'react-hot-toast';
-import emoteImages from '../EmoteImages';
+import { emoteImages, notFoundImages } from '../EmoteImages';
 import Search from './Search';
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 function Emotes() {
   let [searchedEmote, setSearch] = useState('');
-  let inputRef = useRef();
   const copyImageUrl = async (emote) => {
     await navigator.clipboard.writeText(emote.src);
     toast.success(emote.alt + ' copied to clipboard !', { duration: 1500 });
-    inputRef.current.focus();
   };
   let emotesToDisplay =
     searchedEmote === ''
@@ -31,12 +29,13 @@ function Emotes() {
         }}
       />
 
-      <Search ref={inputRef} setSearched={{ searchedEmote, setSearch }} />
+      <Search setSearched={{ searchedEmote, setSearch }} />
       <p>
         Click on an emote to copy it , paste it in discord chat and press enter
-        .
-        <br /> Not all emotes will be shown at first , please search to get what
-        you want. More emotes to be added .
+        . <br /> Not all emotes will be shown at first , please search to get
+        what you want. More emotes to be added .<br />
+        Try not to include image url and text in one line otherwise the url will
+        be visible
       </p>
       <div className="emote-section">
         {emotesToDisplay.length > 0 ? (
@@ -53,9 +52,13 @@ function Emotes() {
         ) : (
           <p>
             Sorry, couldn't find what you were looking for{'. '}
-            <img
+            {/* <img
               src={emoteImages.find((emote) => emote.alt === 'NotLikeThis').src}
               alt={'NotLikeThis'}
+            /> */}
+            <img
+              src={notFoundImages[Math.round(Math.random())].src}
+              alt={'NotFound'}
             />
           </p>
         )}
