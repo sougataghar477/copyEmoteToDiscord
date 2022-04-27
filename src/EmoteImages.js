@@ -48,7 +48,7 @@ export const emoteImages = [
     alt: 'peepoClap',
   },
   {
-    src: 'https://cdn.discordapp.com/emojis/873110087806373898.png?size=56',
+    src: 'https://cdn.discordapp.com/emojis/873110087806373898.png?size=64',
     alt: 'WutfaceW',
   },
   {
@@ -156,7 +156,7 @@ export const emoteImages = [
     alt: 'lacFp',
   },
   {
-    src: 'https://cdn.discordapp.com/emojis/889032126622728192.png?size=48',
+    src: 'https://cdn.discordapp.com/emojis/889032126622728192.png?size=56',
     alt: 'Hmm',
   },
   {
