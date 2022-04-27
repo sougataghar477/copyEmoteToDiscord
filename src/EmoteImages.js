@@ -275,6 +275,10 @@ export const emoteImages = [
     src: 'https://cdn.discordapp.com/emojis/955305056046022766.webp?size=56&quality=lossless',
     alt: 'BASEDHALT',
   },
+  {
+    src: 'https://cdn.discordapp.com/emojis/804553619428081684.gif?size=56&quality=lossless',
+    alt: 'SadSALAMI',
+  },
   // { src: '', alt: '' },
   // { src: '', alt: '' },
   // { src: '', alt: '' },
