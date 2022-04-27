@@ -11,7 +11,7 @@ function Emotes() {
   };
   let emotesToDisplay =
     searchedEmote === ''
-      ? emoteImages.slice(0, 36)
+      ? emoteImages
       : emoteImages.filter((emote) => {
           return emote.alt.toLowerCase().includes(searchedEmote.toLowerCase());
         });
@@ -32,8 +32,7 @@ function Emotes() {
       <Search setSearched={{ searchedEmote, setSearch }} />
       <p>
         Click on an emote to copy it , paste it in discord chat and press enter
-        . <br /> Not all emotes will be shown at first , please search to get
-        what you want. More emotes to be added .<br />
+        . <br />
         Try not to include image url and text in one line otherwise the url will
         be visible.
       </p>
