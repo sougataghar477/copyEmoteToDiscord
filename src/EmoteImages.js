@@ -279,7 +279,18 @@ export const emoteImages = [
     src: 'https://cdn.discordapp.com/emojis/869060490968588359.webp?size=56&quality=lossless',
     alt: 'Wokege',
   },
-  // { src: '', alt: '' },
+  {
+    src: 'https://cdn.discordapp.com/emojis/881130642908274768.webp?size=56&quality=lossless',
+    alt: 'BatChest',
+  },
+  // {
+  //   src: 'https://cdn.discordapp.com/emojis/649731213740736542.webp?size=56&quality=lossless',
+  //   alt: 'widepeepoHappy',
+  // },
+  // {
+  //   src: 'https://cdn.discordapp.com/emojis/649731240617967616.webp?size=60&quality=lossless',
+  //   alt: 'WideHardo',
+  // },
   // { src: '', alt: '' },
   // { src: '', alt: '' },
   // { src: '', alt: '' },
