@@ -279,6 +279,10 @@ export const emoteImages = [
     src: 'https://cdn.discordapp.com/emojis/804553619428081684.gif?size=56&quality=lossless',
     alt: 'SadSALAMI',
   },
+  {
+    src: 'https://cdn.discordapp.com/emojis/869060490968588359.webp?size=56&quality=lossless',
+    alt: 'Wokege',
+  },
   // { src: '', alt: '' },
   // { src: '', alt: '' },
   // { src: '', alt: '' },
