@@ -376,7 +376,10 @@ export const emoteImages = [
     alt: 'COPIUM',
   },
 
-  // { src: '', alt: '' },
+  {
+    src: 'https://cdn.discordapp.com/emojis/970503387521122344.webp?size=56&quality=lossless',
+    alt: 'Sniff',
+  },
   // { src: '', alt: '' },
   // { src: '', alt: '' },
   // { src: '', alt: '' },
