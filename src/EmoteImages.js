@@ -124,6 +124,14 @@ export const emoteImages = [
     alt: 'Pepega',
   },
   {
+    src: 'https://cdn.discordapp.com/emojis/933244701811818516.webp?size=56&quality=lossless',
+    alt: 'pepeSniff',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/939977229708976158.webp?size=56&quality=lossless',
+    alt: 'pepeThink',
+  },
+  {
     src: 'https://cdn.discordapp.com/emojis/876567657141403678.png?size=56',
     alt: 'Okayge',
   },
@@ -336,6 +344,10 @@ export const emoteImages = [
     alt: 'peepoBlush',
   },
   {
+    src: 'https://cdn.discordapp.com/emojis/939987275461308416.webp?size=56&quality=lossless',
+    at: 'peepoHeart',
+  },
+  {
     src: 'https://cdn.discordapp.com/emojis/755831395204464650.gif?size=56&quality=lossless',
     alt: 'peepoCrySwim',
   },
@@ -350,6 +362,14 @@ export const emoteImages = [
   {
     src: 'https://cdn.discordapp.com/emojis/873110087806373898.png?size=64',
     alt: 'WutfaceW',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/926105437219221504.gif?size=56&quality=lossless',
+    alt: 'Bateman',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/833980171006509086.gif?size=56&quality=lossless',
+    alt: 'MadgeHyperSalami',
   },
   {
     src: 'https://cdn.discordapp.com/emojis/806711007908855829.webp?size=56&quality=lossless',
