@@ -60,10 +60,6 @@ export const emoteImages = [
     alt: 'peepoClap',
   },
   {
-    src: 'https://cdn.discordapp.com/emojis/873110087806373898.png?size=64',
-    alt: 'WutfaceW',
-  },
-  {
     src: 'https://cdn.discordapp.com/emojis/862771446873587712.gif?size=56',
     alt: 'pepeFlatline',
   },
@@ -342,6 +338,10 @@ export const emoteImages = [
   {
     src: 'https://cdn.discordapp.com/emojis/882365536409894912.webp?size=56&quality=lossless',
     alt: 'forsenDespair',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/873110087806373898.png?size=64',
+    alt: 'WutfaceW',
   },
   {
     src: 'https://cdn.discordapp.com/emojis/806711007908855829.webp?size=56&quality=lossless',
