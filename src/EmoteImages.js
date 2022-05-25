@@ -8,8 +8,16 @@ export const emoteImages = [
     alt: 'PepeLaugh',
   },
   {
+    src: 'https://cdn.discordapp.com/emojis/890515834169073674.webp?size=56&quality=lossless',
+    alt: 'GOTTEM',
+  },
+  {
     src: 'https://cdn.discordapp.com/emojis/824884636295364619.png?size=56',
     alt: 'sadKEK',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/804595394185003018.gif?size=56&quality=lossless',
+    alt: 'KEKBye',
   },
   {
     src: 'https://cdn.discordapp.com/emojis/862195358258692096.png?size=56',
@@ -38,6 +46,10 @@ export const emoteImages = [
   {
     src: 'https://cdn.discordapp.com/emojis/848800020891041812.png?size=56',
     alt: 'Madeg',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/780571514063814676.webp?size=56&quality=lossless',
+    alt: 'Ezeg',
   },
   {
     src: 'https://cdn.discordapp.com/emojis/852879438696939551.png?size=56',
@@ -271,9 +283,17 @@ export const emoteImages = [
     src: 'https://cdn.discordapp.com/emojis/751068332035407954.gif?size=56&quality=lossless',
     alt: 'TriDance',
   },
+  // {
+  //   src: 'https://cdn.discordapp.com/emojis/930934801022742639.gif?size=56&quality=lossless',
+  //   alt: 'Lamonting',
+  // },
   {
     src: 'https://cdn.discordapp.com/emojis/955305056046022766.webp?size=56&quality=lossless',
     alt: 'BASEDHALT',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/934232154731327578.webp?size=56&quality=lossless',
+    alt: 'BASED',
   },
   {
     src: 'https://cdn.discordapp.com/emojis/869060490968588359.webp?size=56&quality=lossless',
@@ -283,18 +303,51 @@ export const emoteImages = [
     src: 'https://cdn.discordapp.com/emojis/881130642908274768.webp?size=56&quality=lossless',
     alt: 'BatChest',
   },
-  // {
-  //   src: 'https://cdn.discordapp.com/emojis/649731213740736542.webp?size=56&quality=lossless',
-  //   alt: 'widepeepoHappy',
-  // },
-  // {
-  //   src: 'https://cdn.discordapp.com/emojis/649731240617967616.webp?size=60&quality=lossless',
-  //   alt: 'WideHardo',
-  // },
-  // { src: '', alt: '' },
-  // { src: '', alt: '' },
-  // { src: '', alt: '' },
-  // { src: '', alt: '' },
+  {
+    src: 'https://cdn.discordapp.com/emojis/649731213740736542.webp?size=128&quality=lossless',
+    alt: 'widepeepoHappy',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/649731240617967616.webp?size=128&quality=lossless',
+    alt: 'WideHardo',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/889031136532103260.webp?size=56&quality=lossless',
+    alt: 'WiseHardo',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/855229134980513813.webp?size=48&quality=lossless',
+    alt: '4WeirdBuisness',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/895773833036955678.webp?size=56&quality=lossless',
+    alt: '4WeirdBuff',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/952291393357877249.gif?size=56&quality=lossless',
+    alt: 'peepoHey',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/952291393622143026.webp?size=56&quality=lossless',
+    alt: 'peepoBlush',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/755831395204464650.gif?size=56&quality=lossless',
+    alt: 'peepoCrySwim',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/919626183824515162.webp?size=48&quality=lossless',
+    alt: 'Clueless',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/882365536409894912.webp?size=56&quality=lossless',
+    alt: 'forsenDespair',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/806711007908855829.webp?size=56&quality=lossless',
+    alt: 'COPIUM',
+  },
+
   // { src: '', alt: '' },
   // { src: '', alt: '' },
   // { src: '', alt: '' },
