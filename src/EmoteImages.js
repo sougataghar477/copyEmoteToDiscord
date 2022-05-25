@@ -48,7 +48,7 @@ export const emoteImages = [
     alt: 'Madeg',
   },
   {
-    src: 'https://cdn.discordapp.com/emojis/780571514063814676.webp?size=56&quality=lossless',
+    src: 'https://cdn.discordapp.com/emojis/780571514063814676.webp?size=56',
     alt: 'Ezeg',
   },
   {
@@ -341,7 +341,7 @@ export const emoteImages = [
   },
   {
     src: 'https://cdn.discordapp.com/emojis/939987275461308416.webp?size=56&quality=lossless',
-    at: 'peepoHeart',
+    alt: 'peepoHeart',
   },
   {
     src: 'https://cdn.discordapp.com/emojis/755831395204464650.gif?size=56&quality=lossless',
@@ -376,18 +376,6 @@ export const emoteImages = [
     src: 'https://cdn.discordapp.com/emojis/970503387521122344.webp?size=56&quality=lossless',
     alt: 'Sniff',
   },
-  // { src: '', alt: '' },
-  // { src: '', alt: '' },
-  // { src: '', alt: '' },
-  // { src: '', alt: '' },
-  // { src: '', alt: '' },
-  // { src: '', alt: '' },
-  // { src: '', alt: '' },
-  // { src: '', alt: '' },
-  // { src: '', alt: '' },
-  // { src: '', alt: '' },
-  // { src: '', alt: '' },
-  // { src: '', alt: '' },
 ];
 export const notFoundImages = [
   {

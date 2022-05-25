@@ -34,8 +34,7 @@ function Emotes() {
         Click on an emote to copy it, paste it in discord chat and press enter.
         <br />
         Try not to include image url and text in one line otherwise the url will
-        be visible. <br />
-        Added New Emotes.
+        be visible.
       </p>
       <div className="emote-section">
         {emotesToDisplay.length > 0 ? (
