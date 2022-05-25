@@ -124,10 +124,6 @@ export const emoteImages = [
     alt: 'Pepega',
   },
   {
-    src: 'https://cdn.discordapp.com/emojis/933244701811818516.webp?size=56&quality=lossless',
-    alt: 'pepeSniff',
-  },
-  {
     src: 'https://cdn.discordapp.com/emojis/939977229708976158.webp?size=56&quality=lossless',
     alt: 'pepeThink',
   },
@@ -370,6 +366,10 @@ export const emoteImages = [
   {
     src: 'https://cdn.discordapp.com/emojis/833980171006509086.gif?size=56&quality=lossless',
     alt: 'MadgeHyperSalami',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/933244701811818516.webp?size=56&quality=lossless',
+    alt: 'pepeSniff',
   },
   {
     src: 'https://cdn.discordapp.com/emojis/806711007908855829.webp?size=56&quality=lossless',
