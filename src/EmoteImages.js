@@ -312,12 +312,20 @@ export const emoteImages = [
     alt: 'WiseHardo',
   },
   {
+    src: 'https://cdn.discordapp.com/emojis/819009993126445057.webp?size=56&quality=lossless',
+    alt: '4Head',
+  },
+  {
     src: 'https://cdn.discordapp.com/emojis/855229134980513813.webp?size=48&quality=lossless',
     alt: '4WeirdBuisness',
   },
   {
     src: 'https://cdn.discordapp.com/emojis/895773833036955678.webp?size=56&quality=lossless',
     alt: '4WeirdBuff',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/579327223857807393.webp?size=56&quality=lossless',
+    alt: '5Head',
   },
   {
     src: 'https://cdn.discordapp.com/emojis/952291393357877249.gif?size=56&quality=lossless',
