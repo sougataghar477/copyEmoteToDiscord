@@ -192,10 +192,6 @@ export const emoteImages = [
     alt: 'HACKERMANS',
   },
   {
-    src: 'https://cdn.discordapp.com/emojis/891461812632031272.gif?size=56',
-    alt: 'docArrive',
-  },
-  {
     src: 'https://cdn.discordapp.com/emojis/813115043029581865.png?size=56',
     alt: 'OMEGALUL',
   },
@@ -222,6 +218,14 @@ export const emoteImages = [
   {
     src: 'https://cdn.discordapp.com/emojis/808090431354568756.webp?size=56',
     alt: 'forsenCD',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/891461812632031272.gif?size=56',
+    alt: 'docArrive',
+  },
+  {
+    src: 'https://cdn.discordapp.com/emojis/811697790509776986.gif?size=56',
+    alt: 'docLeave',
   },
   {
     src: 'https://cdn.discordapp.com/emojis/905851533625802782.gif?size=56',
