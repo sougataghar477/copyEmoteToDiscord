@@ -368,10 +368,6 @@ export const emoteImages = [
     alt: 'MadgeHyperSalami',
   },
   {
-    src: 'https://cdn.discordapp.com/emojis/933244701811818516.webp?size=56&quality=lossless',
-    alt: 'pepeSniff',
-  },
-  {
     src: 'https://cdn.discordapp.com/emojis/806711007908855829.webp?size=56&quality=lossless',
     alt: 'COPIUM',
   },
