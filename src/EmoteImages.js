@@ -348,7 +348,7 @@ export const emoteImages = [
     alt: '5Head',
   },
   {
-    src:'https://cdn.discordapp.com/emojis/772103198345265215.webp?size=56&quality=lossless',
+    src:'https://cdn.discordapp.com/emojis/772103198345265215.webp?size=48&quality=lossless',
     alt:'Pog'
   },
   {
