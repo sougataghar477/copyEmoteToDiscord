@@ -96,6 +96,10 @@ export const emoteImages = [
     alt: 'NotLikeThis',
   },
   {
+    src: 'https://cdn.discordapp.com/emojis/853142279892107265.webp?size=56&quality=lossless',
+    alt: 'Jebaited',
+  },
+  {
     src: 'https://cdn.discordapp.com/emojis/876564694830284942.png?size=56',
     alt: 'FeelsStrongMan',
   },
@@ -380,6 +384,10 @@ export const emoteImages = [
     src: 'https://cdn.discordapp.com/emojis/970503387521122344.webp?size=56',
     alt: 'Sniff',
   },
+  {
+    src:'https://cdn.discordapp.com/emojis/742833216595034133.gif?size=56&quality=lossless',
+    alt:'GiveEmTheLove'
+  }
 ];
 export const notFoundImages = [
   {
