@@ -348,6 +348,14 @@ export const emoteImages = [
     alt: '5Head',
   },
   {
+    src:'https://cdn.discordapp.com/emojis/772103198345265215.webp?size=56&quality=lossless',
+    alt:'Pog'
+  },
+  {
+    src:'https://cdn.discordapp.com/emojis/559675737792184320.webp?size=56&quality=lossless',
+    alt:'PogChamp'
+  },
+  {
     src: 'https://cdn.discordapp.com/emojis/952291393357877249.gif?size=56',
     alt: 'peepoHey',
   },
@@ -379,7 +387,14 @@ export const emoteImages = [
     src: 'https://cdn.discordapp.com/emojis/674223354038976522.webp?size=56&quality=lossless',
     alt: 'Angry',
   },
-  
+  {
+    src: 'https://cdn.discordapp.com/emojis/952766861009883197.webp?size=56&quality=lossless',
+    alt: 'GrumpyPingu',
+  },
+  {
+    src:'https://cdn.discordapp.com/emojis/796647947521622036.webp?size=56&quality=lossless',
+    alt:'KomodoHype'
+  },
   {
     src: 'https://cdn.discordapp.com/emojis/882365536409894912.webp?size=56',
     alt: 'forsenDespair',
@@ -396,7 +411,10 @@ export const emoteImages = [
     src: 'https://cdn.discordapp.com/emojis/876567406548500551.webp?size=56&quality=lossless',
     alt: 'arnoldHalt',
   },
-  
+  {
+    src: 'https://cdn.discordapp.com/emojis/859748272900800562.webp?size=56&quality=lossless',
+    alt: 'PogO',
+  },
   {
     src: 'https://cdn.discordapp.com/emojis/833980171006509086.gif?size=56',
     alt: 'MadgeHyperSalami',
