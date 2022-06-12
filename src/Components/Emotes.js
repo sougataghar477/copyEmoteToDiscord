@@ -35,6 +35,12 @@ function Emotes() {
         <br />
         Try not to include image url and text in one line otherwise the url will
         be visible.
+        <br/>
+        If you like this website, 
+        <a href="https://www.paypal.com/paypalme/sougataghar47" 
+           style="color: white;">it would help me alot if you can donate by clicking here.  
+        <img src="https://cdn.discordapp.com/emojis/870246404172431423.webp?size=32" style={{verticalAlign:'sub'}} />
+        </a>
       </p>
       <div className="emote-section">
         {emotesToDisplay.length > 0 ? (
