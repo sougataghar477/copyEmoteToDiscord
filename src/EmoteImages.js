@@ -128,7 +128,7 @@ export const emoteImages = [
     alt: 'pepeHandRub',
   },
   {
-    src: 'https://cdn.discordapp.com/emojis/507608818906300429.png?size=567name=Pepega',
+    src: 'https://cdn.discordapp.com/emojis/507608818906300429.png?size=56&name=Pepega',
     alt: 'Pepega',
   },
   {
