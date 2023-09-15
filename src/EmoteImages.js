@@ -208,7 +208,7 @@ export const emoteImages = [
     alt: 'HACKERMANS',
   },
   {
-    src: 'https://cdn.discordapp.com/emojis/813115043029581865.png?size=567name=OMEGALUL',
+    src: 'https://cdn.discordapp.com/emojis/813115043029581865.png?size=56&name=OMEGALUL',
     alt: 'OMEGALUL',
   },
   {
