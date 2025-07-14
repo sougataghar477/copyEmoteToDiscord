@@ -4,7 +4,7 @@ export const emoteImages = [
     alt:'ta'
   },
   {
-    src:'https://cdn.discordapp.com/emojis/1255446699371921428.gif?size=56',
+    src:'https://cdn.discordapp.com/emojis/1255446699371921428.webp?size=56',
     alt:'buh'
   },
   {
