@@ -1,5 +1,33 @@
 export const emoteImages = [
   {
+    src:'https://cdn.discordapp.com/emojis/1315746258320625674.webp?size=56&name=ta',
+    alt:'ta'
+  },
+  {
+    src:'https://cdn.discordapp.com/emojis/1255446699371921428.webp?size=56',
+    alt:'buh'
+  },
+  {
+    src:'https://cdn.discordapp.com/emojis/1391509265113550978.webp?size=56',
+    alt:'o7'
+  },
+  {
+    src:'https://cdn.discordapp.com/emojis/1391509982486204496.webp?size=56',
+    alt:'sus'
+  },
+  {
+    src:'https://cdn.discordapp.com/emojis/1391509060288774244.webp?size=56',
+    alt:'um'
+  },
+  {
+    src:'https://cdn.discordapp.com/emojis/1391508964453384312.webp?size=56',
+    alt:'aga'
+  },
+  {
+    src:'https://cdn.discordapp.com/emojis/1391510441636790322.webp?size=56',
+    alt:'Smile'
+  },
+  {
     src: 'https://cdn.discordapp.com/emojis/813112310939779082.gif?size=56&name=pepeL',
     alt: 'pepeL',
   },
